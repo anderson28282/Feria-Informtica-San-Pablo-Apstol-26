@@ -1,0 +1,225 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Parroquia San Pablo Apóstol</title>
+
+<!-- FUENTE -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<!-- CONEXION CSS -->
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header>
+    <h1>Politécnico y Parroquia San Pablo Apóstol</h1>
+    <p>Proyecto de la Técnica de Informática</p>
+</header>
+
+<!-- MENU -->
+<nav>
+    <button onclick="abrirTab('inicio')">Inicio</button>
+    <button onclick="abrirTab('historia')">Historia</button>
+    <button onclick="abrirTab('mas')">Más</button>
+    <button onclick="abrirTab('informatica')">Informática</button>
+</nav>
+
+<!-- INICIO -->
+<section id="inicio" class="tab active">
+
+    <div class="card">
+
+        <h2 style="text-align:center;">Bienvenido</h2>
+
+        <p style="text-align:center;">
+        La Feria Tecnológica del Técnico en Informática es un espacio educativo donde los estudiantes de nuestra institución presentan sus conocimientos, habilidades y proyectos desarrollados en el área de la tecnología. Este evento forma parte de las actividades académicas que promueven la creatividad, la innovación y el aprendizaje práctico en el mundo digital.
+
+En esta feria, los estudiantes demuestran lo aprendido en el área de informática, incluyendo el desarrollo de páginas web, mantenimiento de computadoras, programación, diseño digital y el uso de herramientas tecnológicas modernas. Cada proyecto refleja el esfuerzo, la dedicación y el trabajo en equipo de los futuros técnicos en informática.
+        </p>
+
+        <div style="text-align:center;">
+            <img src="liceo.jpeg" class="imagen-principal">
+        </div>
+
+    </div>
+
+</section>
+
+<!-- HISTORIA -->
+<section id="historia" class="tab">
+
+    <div class="card">
+
+        <h2 style="text-align:center;">
+        Historia del Politécnico 
+        </h2>
+
+        <p>
+        La Escuela Parroquial San Pablo Apóstol, ubicada en el sector Cristo Rey, es una institución educativa que nació con el propósito de brindar educación integral a niños y jóvenes de la comunidad. Desde sus inicios, la escuela ha estado vinculada a la parroquia, promoviendo la formación académica, espiritual y en valores cristianos como el respeto, la responsabilidad, la solidaridad y el servicio a los demás.</p>
+
+       
+       
+        <p> Con el paso del tiempo, la institución fue creciendo y adaptándose a las necesidades de la sociedad, incorporando la modalidad técnica para preparar a los estudiantes en áreas que les permitan desarrollarse profesionalmente y contribuir al progreso de su comunidad. De esta manera, el centro educativo se convirtió en un politécnico, ofreciendo oportunidades de formación tanto académica como técnica.
+        </p>
+
+        <div class="images">
+
+            <div class="card-blur">
+                <img src="1.jpg">
+
+                <div class="info">
+                    <h3>Enfermería</h3>
+                </div>
+            </div>
+
+            <div class="card-blur">
+                <img src="2.jpg">
+
+                <div class="info">
+                    <h3>Contabilidad</h3>
+                </div>
+            </div>
+
+            <div class="card-blur">
+                <img src="3.jpg">
+
+                <div class="info">
+                    <h3>Informática</h3>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- SECCION MAS CON IMAGENES Y ANIMACIONES -->
+<section id="mas" class="tab">
+
+    <div class="card">
+
+        <h2 class="titulo-mas">
+           Cosas que Aprendes en Informatica
+        </h2>
+
+        <ul class="lista-mas">
+            <li>Páginas web educativas</li>
+            <li>Aplicaciones móviles</li>
+            <li>Redes informáticas</li>
+            <li>Mantenimiento de computadoras</li>
+        </ul>
+
+        <!-- GALERIA DE IMAGENES -->
+        <div class="imagenes-mas">
+
+            <div class="img-card">
+                <img src="pagina-web-640x480.webp" alt="Páginas web">
+                <p>Páginas Web</p>
+            </div>
+
+            <div class="img-card">
+                <img src="apli.jpg" alt="Aplicaciones móviles">
+                <p>Aplicaciones</p>
+            </div>
+
+            <div class="img-card">
+                <img src="redes.jpeg" alt="Redes">
+                <p>Redes</p>
+            </div>
+
+            <div class="img-card">
+                <img src="mante.jpg" alt="Mantenimiento">
+                <p>Mantenimiento</p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<section id="informatica" class="tab">
+
+    <div class="contenedor-informatica">
+
+        <!-- TEXTO MOTIVADOR -->
+        <div class="info-texto">
+
+            <h2>¿Por qué estudiar Informática?</h2>
+
+            <p>
+            La informática es una herramienta fundamental en el mundo moderno.
+            Permite a los estudiantes aprender a utilizar la tecnología,
+            crear soluciones digitales y prepararse para un futuro profesional.
+            </p>
+
+            <ul>
+                <li>Aprende habilidades tecnológicas modernas</li>
+                <li>Desarrolla tu creatividad e innovación</li>
+                <li>Prepárate para el mundo laboral</li>
+                <li>Construye tu futuro en la tecnología</li>
+            </ul>
+
+            <h3 class="frase">
+                "Tu futuro comienza con la informática"
+            </h3>
+
+        </div>
+
+        <!-- IMAGENES -->
+        <div class="info-imagenes">
+
+            <img src="47.jpg">
+            <img src="21620.jpg">
+            <img src="2148323486.jpg">
+           
+            <img src="2149328253.jpg">
+            
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+<footer>
+    <p>© 2026 Proyecto de Informática</p>
+</footer>
+
+<script>
+
+function abrirTab(id){
+
+    let tabs = document.querySelectorAll('.tab');
+
+    tabs.forEach(tab => {
+        tab.classList.remove('active');
+    });
+
+    document.getElementById(id).classList.add('active');
+
+}
+
+</script>
+
+</body>
+
+<!-- VIDEO DE FONDO -->
+
+<video id="videoFondo" autoplay muted loop playsinline>
+    <source src="fondo.mp4" type="video/mp4">
+    Tu navegador no soporta video.
+</video>
+
+
+</html>
+
